@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  /* Only apply selection/right-click logic if enabled in settings, 
+     but the CSS here was forcing it globally. 
+     I'll remove the global !important overrides to allow the app state to control it. */
+}
+
+/* Animations smooth */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Remix: MANDEN TSERIE",
+  "description": "Plateforme de streaming de films et séries avec système de paiement Orange Money et gestion admin.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation",
+    "downloads"
+  ]
+}

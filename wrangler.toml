@@ -1,0 +1,13 @@
+name = "manden-tserie-2"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "dist"
+compatibility_flags = [ "nodejs_compat" ]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "manden_tserie_db"
+database_id = "726d9683-4e15-4c78-86ce-25004f7029b2"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "manden-tseri2-videos"
